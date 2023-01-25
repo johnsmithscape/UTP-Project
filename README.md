@@ -16,6 +16,10 @@ U.T.P - Useful Tools Pack for POCO F3 (alioth)
 # Build requirements
 - Python3, pip
 - PyInstaller `pip install PyInstaller`
+- Git
 # Build
+`git clone https://github.com/Vankinok/UTP-Project.git && cd UTP-Project`
+
 `pyInstaller -i utp_logo.ico -F main.py`
+
 have a fun! :D
