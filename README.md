@@ -1,16 +1,20 @@
-# UTP-Project
+# UTP-Project (linux branch)
 U.T.P - Useful Tools Pack for POCO F3 (alioth)
-# System requirements (Windows)
-- Windows 7 and up
-- aria2c (https://aria2.github.io/)
-- 7zip (console version, windows, https://www.7-zip.org/download.html)
-- platform tools (https://developer.android.com/studio/releases/platform-tools)
-# System requirements (Linux)
-- aria2
-- 7zip (console version, linux, https://www.7-zip.org/download.html)
-- android-tools
+# Run requirements
+## Archlinux (Manjaro, Garuda, Arco, Artix, etc... (so, pacman based))
+#### aria2 `pacman -S aria2`
+#### android-tools `pacman -S android-tools`
+#### unzip `pacman -S unzip`
+## Ubuntu/Debian (apt based)
+#### aria2 `apt install aria2`
+#### android-tools `apt install adb fastboot`
+#### unzip `apt install unzip`
+## Gentoo/Calculate linux (portage based)
+#### aria2 `emerge aria2`
+#### android-tools `emerge android-tools`
+#### unzip `emerge unzip`
 # Build requirements
-- Python 3.8, pip
+- Python3, pip
 - PyInstaller `pip install PyInstaller`
 # Build
 `pyInstaller -i utp_logo.ico -F main.py`
