@@ -40,7 +40,7 @@ if tool == 1:
         
         print('Загрузка orange fox recovery stable')
         os.system("aria2c https://us-dl.orangefox.download/63315c533c05f43c193c13b6")
-        os.system("7za x OrangeFox-alioth-stable@R11.1_1_A12.zip recovery.img")
+        os.system("unzip OrangeFox-alioth-stable@R11.1_1_A12.zip recovery.img")
         os.system("fastboot boot recovery.img")
         print('Чтобы установить orange fox recovery на постоянку:\n1. Заходим в меню (3 горизонтальные полоски)\n2. Листаем вниз и жмем на Flash current OrangeFox(прошить текущий OrangeFox)')
         input('Готово (нажмите enter для выхода)')
@@ -50,7 +50,7 @@ if tool == 1:
         
         print('Загрузка orange fox recovery beta')
         os.system("aria2c https://us-dl.orangefox.download/6308b4793c05f43c193bed5b")
-        os.system("7za x OrangeFox-alioth-beta@R11.1_1_5_A12.zip recovery.img")
+        os.system("unzip OrangeFox-alioth-beta@R11.1_1_5_A12.zip recovery.img")
         os.system("fastboot boot recovery.img")
         print('Чтобы установить orange fox recovery на постоянку:\n1. Заходим в меню (3 горизонтальные полоски)\n2. Листаем вниз и жмем на Flash current OrangeFox(прошить текущий OrangeFox)')
         input('Готово (нажмите enter для выхода)')
