@@ -13,7 +13,7 @@ U.T.P - Useful Tools Pack for POCO F3 (alioth)
 have a fun! :D
 # For 4PDA
 ### Как собрать свой config.py?
-work_type = "recovery" # доступно: recovery / firmware / rom_recovery / magisk
+`work_type = "recovery"` # доступно: recovery / firmware / rom_recovery / magisk
 
 #### Для прошивки recovery (work_type = "recovery"):
 `recovery_type = "twrp"` # доступно: twrp / ofox
