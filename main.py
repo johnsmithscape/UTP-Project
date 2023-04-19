@@ -10,7 +10,7 @@
 
 # read_config(), create_config() находятся в fuctions.py 
 # другие (adb, fastboot, и т.д) находят в helpers.py
-from fuctions import *
+from functions import *
 print("""
 
 
